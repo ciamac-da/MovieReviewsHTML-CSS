@@ -1,0 +1,357 @@
+@media (min-width:600px) {
+   p{
+     font-size: 1.25rem;
+   }
+
+}
+
+body {
+  background-color: gray;
+  font-family: 'Vollkorn SC', serif;
+  color: white;
+  font-size: 65%;
+  text-shadow: 1rem 1rem 1rem black;
+}
+
+p{
+  font-size: 1rem;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.describe {
+  padding-left: 1.5rem;
+}
+
+.hintergrund {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-bottom: 4rem;
+  margin-right: 8rem;
+}
+
+
+h1{
+  margin-bottom: .4rem;
+  font-size: 2.5rem;
+}
+.hintergrund1 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.hintergrund1 >p{
+  opacity: .8;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.hintergrund::after {
+  content: "";
+  background: url(../image/Downton-Abbey.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
+  margin-right: 4rem;
+}
+
+.img1 {
+  margin-top: 2.4rem;
+  right: 2.5rem;
+  width: 12.5rem;
+  height: 14.5rem;
+  margin-right: 2rem;
+}
+
+.stars {
+  margin-left: 2.5rem;
+}
+
+.sidebar {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  overflow-y: scroll;
+  justify-content: space-between;
+}
+
+.sidebar > div {
+  border: .3rem solid #2e2c2c;
+  width: 90%;
+  height: 22rem;
+  margin-bottom: .5rem;
+}
+
+.downton-abbey{
+display: inline-block;
+padding-bottom: .5rem;
+flex-direction: row;
+padding-left: .5rem;
+}
+
+
+.downton-abbey:hover{
+  color: white;
+  background-color: black;
+}
+
+.hustlers{
+display: inline-block;
+flex-direction: row;
+padding-left: .5rem;
+padding-bottom: .5rem;
+}
+
+.hustlers:hover{
+  color: white;
+  background-color: black;
+}
+
+.for-sama{
+display: inline-block;
+padding-bottom: .5rem;
+flex-direction: row;
+padding-left: .5rem;
+}
+
+.for-sama:hover{
+  color: white;
+  background-color: black;
+}
+
+.ad-astra{
+  display: inline-block;
+  flex-direction: row;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+}
+
+.ad-astra:hover{
+  color: white;
+  background-color: black;
+}
+
+.loro{
+  display: inline-block;
+  flex-direction: row;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+}
+
+.loro:hover{
+  color: white;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.scss.map */
+/*stars*/
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.star-white{
+  margin: 8.3333333333px 0;
+  position: relative;
+  display: block;
+  color: white;
+  width: 0px;
+  height: 0px;
+  border-right: 16.6666667px solid transparent;
+  border-bottom: 11.6666667px solid white;
+  border-left: 16.6666667px solid transparent;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+
+.star-white:before {
+  border-bottom: 13.3333333px solid white;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -7.5px;
+  left: -10.8333333px;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+.star-white:after {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 0.5px;
+  left: -17.5px;
+  width: 0px;
+  height: 0px;
+  border-right: 16.6666667px solid transparent;
+  border-bottom: 11.6666667px solid white;
+  border-left: 16.6666667px solid transparent;
+  -webkit-transform: rotate(-70deg);
+          transform: rotate(-70deg);
+  content: '';
+}
+.star-black{
+  margin: 8.33333333px 0;
+  position: relative;
+  display: block;
+  color: black;
+  width: 0px;
+  height: 0px;
+  border-right: 16.6666667px solid transparent;
+  border-bottom: 11.6666667px solid black;
+  border-left: 16.6666667px solid transparent;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+.star-black:before {
+  border-bottom: 13.3333333px solid black;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -7.5px;
+  left: -10.8333333px;
+  display: block;
+  content: '';
+  -webkit-transform: rotates(-35deg);
+          transform: rotate(-35deg);
+}
+.star-black:after {
+  position: absolute;
+  display: block;
+  color: black;
+  top: 0.5px;
+  left: -17.5px;
+  width: 0px;
+  height: 0px;
+  border-right: 16.6666667px solid transparent;
+  border-bottom: 11.6666667px solid black;
+  border-left: 16.6666667px solid transparent;
+  -webkit-transform: rotate(-70deg);
+          transform: rotate(-70deg);
+  content: '';
+}
+
+.star-white:hover, .star-white:hover::after, .star-white:hover::before {
+  border-bottom-color: gold;
+}
+
+
+.stars1{
+  display: flex;
+  flex-direction: row;
+  padding-top: .5rem;
+}
+
+.star-white1 {
+  margin: 7.14285714px 0;
+  position: relative;
+  display: block;
+  color: white;
+  width: 0px;
+  height: 0px;
+  border-right: 14.2857143px solid transparent;
+  border-bottom: 10px solid white;
+  border-left: 14.2857143px solid transparent;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+
+.star-white1:before {
+  border-bottom: 11.4285714px solid white;
+  border-left: 4.28571429px solid transparent;
+  border-right: 4.28571429px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -6.42857143px;
+  left: -9.28571429px;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+.star-white1:after {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 0.42857143px;
+  left: -15px;
+  width: 0px;
+  height: 0px;
+  border-right: 14.2857143px solid transparent;
+  border-bottom: 10px solid white;
+  border-left: 14.2857143px solid transparent;
+  -webkit-transform: rotate(-70deg);
+          transform: rotate(-70deg);
+  content: '';
+}
+.star-black1 {
+  margin: 7.14285714px 0;
+  position: relative;
+  display: block;
+  color: black;
+  width: 0px;
+  height: 0px;
+  border-right: 14.2857143px solid transparent;
+  border-bottom: 10px solid black;
+  border-left: 14.2857143px solid transparent;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+
+.star-black1:before {
+  border-bottom: 11.4285714px solid black;
+  border-left: 4.28571429px solid transparent;
+  border-right: 4.28571429px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -6.42857143px;
+  left: -9.28571429px;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+.star-black1:after {
+  position: absolute;
+  display: block;
+  color: black;
+  top: .42857143px;
+  left: -15px;
+  width: 0px;
+  height: 0px;
+  border-right: 14.2857143px solid transparent;
+  border-bottom: 10px solid black;
+  border-left: 14.2857143px solid transparent;
+  -webkit-transform: rotate(-70deg);
+          transform: rotate(-70deg);
+  content: '';
+} 
